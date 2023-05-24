@@ -271,11 +271,18 @@
 //     document.write("El mayor de los 3 es "+nombre3);
 // }
 
-// 12-----------------------------------------------------
+// 12----------------------------------------------------
+
+// let random =(Math.random())
+// let entre1y100 = Math.floor(random*100+1)
+
+// document.write(entre1y100)
+
+// 13-----------------------------------------------------
 // let cadena = prompt("Ingrese un texto");
 // document.write(cadena.toUpperCase());
 
-// 13-----------------------------------------------------
+// 14-----------------------------------------------------
 // let cadena = prompt("Ingrese el texto");
 // for(let i=0; i< cadena.length; i++){
 //     if(i==cadena.length-1){
@@ -286,7 +293,7 @@
 //     }
 // }
 
-// // 14------------------------------------------------------------
+// // 15------------------------------------------------------------
 // let cadena = prompt("Ingrese el texto");
 // cadena=cadena.toLowerCase();
 // let vocales = 0;
@@ -295,4 +302,6 @@
 // vocales=vocales+1;}
 // }
 // document.write("Cantidad de vocales: " +vocales);
+
+// 15-----------------------------------------------------------------
 
