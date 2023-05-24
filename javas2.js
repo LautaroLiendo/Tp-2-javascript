@@ -89,10 +89,10 @@
 
 // while (continuar) {
 //   let numero = prompt("Ingresa un número:");
-  
+
 //   if (numero === null) {
 //     continuar = false;
-    
+
 //   } else if (isNaN(numero)) {
 //     alert("Ingresa un numero valido");
 
@@ -125,4 +125,24 @@
 
 //   let aux = i + "";
 //   console.log(aux.repeat(i));
+// }
+
+// 8------------------------------------------------------------------------------
+// 8- Crea script para generar pirámide siguiente con los números del 1 al número que indique el usuario (no mayor de 50)
+
+// let numero = parseInt(prompt("Ingrese el número final de la piramide invertida, (menor o igual a 50)."));
+
+// if (numero >= 0 && numero <= 50) {
+
+//   for (let i = 1; i <= numero; i++) {
+
+//     for (let digito = 1; digito <= i; digito++) {
+
+//       document.write(digito);
+//     }
+//     document.write("<br>");
+//   }
+// }
+// else {
+//   document.write("Número erróneo. Actualice la página e intente de nuevo.");
 // }
