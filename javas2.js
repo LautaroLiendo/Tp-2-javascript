@@ -110,8 +110,19 @@
 // 6---------------------------------------------------------------
 // 6- Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
 
-for (let i = 0; i <= 30; i++) {
+// for (let i = 0; i <= 30; i++) {
 
-  let aux = i + "";
-  console.log(aux.repeat(i));
-}
+//   let aux = i + "";
+//   console.log(aux.repeat(i));
+// }
+
+// 7----------------------------------------------------------------------------
+// 7- Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma
+
+// let ingreseNumero = prompt("ingrese un numero")
+
+// for (let i = ingreseNumero ; i <= 50; i--) {
+
+//   let aux = i + "";
+//   console.log(aux.repeat(i));
+// }
