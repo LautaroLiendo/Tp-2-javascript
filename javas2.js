@@ -250,4 +250,49 @@
 //   document.write("<br>")
 
 // }
+// 10------------------------------------------------
+// no lo se
+// 11-------------------------------------------------------------------------------------------------------
+
+// let nombre1 = prompt("Ingrese el nombre de la primera persona");
+// let edad1 = parseInt(prompt("Ingrese la edad de la primera persona"));
+// let nombre2 = prompt("Ingrese el nombre de la segunda persona");
+// let edad2 = parseInt(prompt("Ingrese la edad de la segunda persona"));
+// let nombre3 = prompt("Ingrese el nombre de la tercera persona");
+// let edad3 = parseInt(prompt("Ingrese la edad de la tercera persona"));
+// let maximo = Math.max(edad1,edad2,edad3);
+// if(maximo==edad1){
+//     document.write("El mayor de los 3 es "+nombre1);
+// }
+// if(maximo==edad2){
+//     document.write("El mayor de los 3 es "+nombre2);
+// }
+// if(maximo==edad3){
+//     document.write("El mayor de los 3 es "+nombre3);
+// }
+
+// 12-----------------------------------------------------
+// let cadena = prompt("Ingrese un texto");
+// document.write(cadena.toUpperCase());
+
+// 13-----------------------------------------------------
+// let cadena = prompt("Ingrese el texto");
+// for(let i=0; i< cadena.length; i++){
+//     if(i==cadena.length-1){
+//         document.write(cadena.charAt(i))
+//     }
+//     else{
+//         document.write(cadena.charAt(i) + "-")
+//     }
+// }
+
+// // 14------------------------------------------------------------
+// let cadena = prompt("Ingrese el texto");
+// cadena=cadena.toLowerCase();
+// let vocales = 0;
+// for(let i=0; i<= cadena.length;i++){
+// if((cadena.charAt(i)=="a")||(cadena.charAt(i)=="e")||(cadena.charAt(i)=="i")||(cadena.charAt(i)=="o")||(cadena.charAt(i)=="u")){
+// vocales=vocales+1;}
+// }
+// document.write("Cantidad de vocales: " +vocales);
 
