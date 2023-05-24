@@ -64,24 +64,42 @@
 
 // 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
 
-let cadena = []; //lo que escribe el usuario se guarda en un array
+// let cadena = []; //lo que escribe el usuario se guarda en un array
 
-while (true) {
-  let texto = prompt("Ingresa una cadena de texto"); //le pide al usuario que ingrese un texto
+// while (true) {
+//   let texto = prompt("Ingresa una cadena de texto"); //le pide al usuario que ingrese un texto
+
+//   if (texto==null) {
+//     break;
+//   }
+
+//   cadena.push(texto);
+// }
+
+// let resultado = cadena.join("-");
+
+// document.write(resultado);
+
+//4------------------------------------------------------------------------------------------
+// 4- Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un número deberá indicarse con un «alert» y seguir pidiendo números. Al salir con “cancelar” deberá indicarse la suma total de los números introducidos.
+
+
+// let suma = 0;
+// let continuar = true;
+
+// while (continuar) {
+//   let numero = prompt("Ingresa un número:");
   
-  if (texto==null) {
-    break;
-  }
-  
-  cadena.push(texto);
-}
+//   if (numero === null) {
+//     continuar = false;
+    
+//   } else if (isNaN(numero)) {
+//     alert("Ingresa un numero valido");
 
-let resultado = cadena.join("-");
+//   } else {
+//     suma = suma + Number(numero);
+//   }
+// }
 
-document.write(resultado);
-
-
-
-
-
+// alert(suma);
 
