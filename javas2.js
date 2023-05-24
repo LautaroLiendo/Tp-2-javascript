@@ -62,10 +62,23 @@
 
 // 3-----------------------------------------------------------------------------------------------------------------------
 
+// 3- Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
 
+let cadena = []; //lo que escribe el usuario se guarda en un array
 
+while (true) {
+  let texto = prompt("Ingresa una cadena de texto"); //le pide al usuario que ingrese un texto
+  
+  if (texto==null) {
+    break;
+  }
+  
+  cadena.push(texto);
+}
 
+let resultado = cadena.join("-");
 
+document.write(resultado);
 
 
 
