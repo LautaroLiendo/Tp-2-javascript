@@ -101,5 +101,17 @@
 //   }
 // }
 
-// alert(suma);
+// document.write(suma);
 
+
+// 5---------------------------------------------------------------------------------------
+// no lo se
+
+// 6---------------------------------------------------------------
+// 6- Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
+
+for (let i = 0; i <= 30; i++) {
+
+  let aux = i + "";
+  console.log(aux.repeat(i));
+}
